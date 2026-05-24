@@ -7,10 +7,10 @@
     <style>
         body { font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.6; text-align: center; background-color: #f4f4f4; margin: 0; padding: 20px; }
         .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 30px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 30px; }
         .card { padding: 20px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; }
         .btn { display: inline-block; padding: 10px 20px; background: #007bff; color: #fff; text-decoration: none; border-radius: 5px; margin-top: 30px; }
-        h2 { color: #333; }
+        h2 { color: #333; margin-top: 40px; }
     </style>
 </head>
 <body>
@@ -19,19 +19,17 @@
         <p>بإشراف المهندس: فتحي علي الأشول</p>
         
         <h2>خدماتنا التقنية</h2>
-        <div class="services">
-            <div class="card">
-                <h3>صيانة الهواتف</h3>
-                <p>إصلاح الأعطال الدقيقة وفحص الدوائر الإلكترونية.</p>
-            </div>
-            <div class="card">
-                <h3>حلول البطاريات</h3>
-                <p>تصميم وتجميع أنظمة BMS وحزم البطاريات.</p>
-            </div>
-            <div class="card">
-                <h3>الذكاء الاصطناعي</h3>
-                <p>برمجة بوتات التليجرام وحلول الأتمتة الذكية.</p>
-            </div>
+        <div class="grid">
+            <div class="card"><h3>صيانة الهواتف</h3><p>إصلاح الأعطال الدقيقة وفحص الدوائر.</p></div>
+            <div class="card"><h3>حلول البطاريات</h3><p>تصميم وتجميع أنظمة BMS وحزم البطاريات.</p></div>
+            <div class="card"><h3>الذكاء الاصطناعي</h3><p>برمجة بوتات التليجرام وحلول الأتمتة.</p></div>
+        </div>
+
+        <h2>مقالات عن الذكاء الاصطناعي</h2>
+        <div class="grid">
+            <div class="card"><h3>مستقبل الـ AI</h3><p>كيف يغير الذكاء الاصطناعي وجه التقنية اليوم.</p></div>
+            <div class="card"><h3>أتمتة المهام</h3><p>كيف تستفيد من بوتات التليجرام في عملك.</p></div>
+            <div class="card"><h3>الذكاء الاصطناعي و HR</h3><p>نظرة على كتابي الجديد في تطبيقات الـ AI.</p></div>
         </div>
 
         <a href="https://leanpub.com/theai-poweredhrtheultimatechatgptplaybookformodernhumanresources?fbclid=IwY2xjawR_kbxleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeszvCmCeySEqQEwjBuhezv7LKN-TvlT5ghzjvMn-tKCjr8V_NKt2cfeke4hA_aem_IhLwhGxozJe3VrVo90UenA" class="btn">اطلع على كتابي الجديد</a>
